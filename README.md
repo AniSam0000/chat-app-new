@@ -276,7 +276,6 @@ For real deployment, host frontend and backend separately and set `VITE_BACKEND_
 Recommended improvements for production:
 
 - Add JWT expiry + refresh strategy
-- Restrict CORS origin (avoid `*`)
 - Add request rate limiting and input validation layer
 - Add centralized error handler and API response standards
 
@@ -302,6 +301,6 @@ Recommended improvements for production:
 
 ---
 
-## 14) License
+## 14) Conclusion
 
-This project currently has no explicit top-level license file. Add a `LICENSE` file if you plan to distribute it publicly.
+This project demonstrates a complete real-time chat application with a modern tech stack. It covers essential features like authentication, real-time messaging, and media uploads while following best practices for security and performance. The modular structure allows for easy extension and maintenance as new features are added in the future.
